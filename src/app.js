@@ -78,6 +78,4 @@ app.get('*',(req,res)=>{
         title: '404',
         name:'Anmol Jain'})
 })
-app.listen(port,()=>{
-    console.log('server is up on port'+port);
-})
+app.listen(port)
